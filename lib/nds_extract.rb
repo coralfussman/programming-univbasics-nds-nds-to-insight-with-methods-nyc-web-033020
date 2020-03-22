@@ -27,8 +27,9 @@ index = 0
 result = {}
 
 while index < nds.length do
-   director = nds[index]
-   result[director[:name]] = gross_for_director(director)
+   director = nds[index][:name]
+   movies = nds[index]
+   result[director] = gross_for_director(movies)
    index += 1;
  end
  result
