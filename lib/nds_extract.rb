@@ -23,7 +23,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
 
-directors_index = 0
+index = 0
 result = {}
 
 while index < nds.length do
